@@ -1,0 +1,188 @@
+[
+  {
+    "uuid": "e02011a6-abcd-abcd-abcd-2a0017e799df",
+    "name": "Centos 7.4 (64-bit)",
+    "description": "CentOS 7.4 template. Default root password: rootpass",
+    "cpu": 2,
+    "memory": 2147483648,
+    "size": 1564082176,
+    "version": "1",
+    "dateCreated": "2018-09-15T08:50:06+00:00",
+    "operatingSystem": {
+      "type": "Linux",
+      "version": "Enterprise Linux 6/7"
+    },
+    "bootOrder": [
+      {
+        "diskUuid": "b94bd3c3-abcd-abcd-abcd-879971e726e9",
+        "name": "Disk 0",
+        "order": 1,
+        "vnicUuid": null
+      },
+      {
+        "diskUuid": null,
+        "name": "vNIC 0",
+        "order": 2,
+        "vnicUuid": "3cb06c16-abcd-abcd-abcd-819ccccd6e3f"
+      }
+    ],
+    "vmMode": "Enhanced",
+    "datacenterUuid": null
+  },
+  {
+    "uuid": "a3f90df6-abcd-abcd-abcd-7c81df9d7a57",
+    "name": "CentOS 7.5 (64-bit)",
+    "description": "CentOS 7.5 (64-bit) template. Default root password: rootpass",
+    "cpu": 2,
+    "memory": 2147483648,
+    "size": 2080833536,
+    "version": "1",
+    "dateCreated": "2019-05-17T09:56:30+00:00",
+    "operatingSystem": {
+      "type": "Linux",
+      "version": "Enterprise Linux 6/7"
+    },
+    "bootOrder": [
+      {
+        "diskUuid": "c4f339b6-abcd-abcd-abcd-cd15d46a0396",
+        "name": "Disk 0",
+        "order": 1,
+        "vnicUuid": null
+      },
+      {
+        "diskUuid": null,
+        "name": "vNIC 0",
+        "order": 2,
+        "vnicUuid": "ab95c718-abcd-abcd-abcd-158cbc26b9a5"
+      }
+    ],
+    "vmMode": "Enhanced",
+    "datacenterUuid": null
+  },
+  {
+    "uuid": "683a8eb9-abcd-abcd-abcd-466e5caf9cb9",
+    "name": "winsrc999_Test",
+    "description": "winsrc999",
+    "cpu": 2,
+    "memory": 4294967296,
+    "size": 48316424192,
+    "version": null,
+    "dateCreated": "2020-01-17T10:23:25+00:00",
+    "operatingSystem": {
+      "type": "Windows",
+      "version": "Windows Server 2016"
+    },
+    "bootOrder": [
+      {
+        "diskUuid": "6007ba83-abcd-abcd-abcd-88fd4ca00446",
+        "name": "Disk 0",
+        "order": 1,
+        "vnicUuid": null
+      },
+      {
+        "diskUuid": null,
+        "name": "vNIC 0",
+        "order": 2,
+        "vnicUuid": "06bcfde5-abcd-abcd-abcd-b7c09899c6c8"
+      },
+      {
+        "diskUuid": "df89de64-abcd-abcd-abcd-ec30712ba9fc",
+        "name": "Disk 1",
+        "order": 3,
+        "vnicUuid": null
+      }
+    ],
+    "vmMode": "Compatibility",
+    "datacenterUuid": "2bfa7725-abcd-abcd-abcd-8c547cd62203"
+  },
+  {
+    "uuid": "578bc62e-abcd-abcd-abcd-81525d4ddad8",
+    "name": "OpenLDAP",
+    "description": "Virtual Appliance (OpenLDAP - CentOS 7)",
+    "cpu": 4,
+    "memory": 8589934592,
+    "size": 1688211456,
+    "version": null,
+    "dateCreated": "2019-05-17T07:55:15+00:00",
+    "operatingSystem": {
+      "type": "Linux",
+      "version": "Enterprise Linux 6/7"
+    },
+    "bootOrder": [
+      {
+        "diskUuid": "889b46e5-abcd-abcd-abcd-c016ed6822a6",
+        "name": "Disk 0",
+        "order": 1,
+        "vnicUuid": null
+      },
+      {
+        "diskUuid": null,
+        "name": "vNIC 0",
+        "order": 2,
+        "vnicUuid": "3eed613f-abc-abcd-abcd--6879675d9849"
+      }
+    ],
+    "vmMode": "Compatibility",
+    "datacenterUuid": "2bfa7725-abcd-abcd-abcd-8c547cd62203"
+  },
+  {
+    "uuid": "dc60616e-abcd-abcd-abcd-c6e1f0fb4f25",
+    "name": "Windows Server 2012 R2 Domain Controller (64-bit)",
+    "description": "Windows Server 2012 R2 Domain Controller (64-bit) Template",
+    "cpu": 2,
+    "memory": 4294967296,
+    "size": 11900026880,
+    "version": "1",
+    "dateCreated": "2018-11-06T07:25:28+00:00",
+    "operatingSystem": {
+      "type": "Windows",
+      "version": "Windows Server 2012R2"
+    },
+    "bootOrder": [
+      {
+        "diskUuid": "6605ed24-abcd-abcd-abcd-366e5d876725",
+        "name": "Disk 0",
+        "order": 1,
+        "vnicUuid": null
+      },
+      {
+        "diskUuid": null,
+        "name": "vNIC 0",
+        "order": 2,
+        "vnicUuid": "668c1cef-abcd-abcd-abcd-ca6deba3aab4"
+      }
+    ],
+    "vmMode": "Enhanced",
+    "datacenterUuid": null
+  },
+  {
+    "uuid": "8536f8d3-abcd-abcd-abcd-ed65517427e9",
+    "name": "Windows Server 2016 Standard (64-bit)",
+    "description": "Windows Server 2016 Standard (64-bit) Template",
+    "cpu": 2,
+    "memory": 4294967296,
+    "size": 35347955712,
+    "version": "1",
+    "dateCreated": "2018-09-15T07:29:00+00:00",
+    "operatingSystem": {
+      "type": "Windows",
+      "version": "Windows Server 2016"
+    },
+    "bootOrder": [
+      {
+        "diskUuid": "00e9cf53-abcd-abcd-abcd-e091193911cd",
+        "name": "Disk 0",
+        "order": 1,
+        "vnicUuid": null
+      },
+      {
+        "diskUuid": null,
+        "name": "vNIC 0",
+        "order": 2,
+        "vnicUuid": "07f9f449-abcd-abcd-abcd-76a7d2f26f47"
+      }
+    ],
+    "vmMode": "Enhanced",
+    "datacenterUuid": null
+  }
+]

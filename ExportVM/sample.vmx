@@ -1,0 +1,76 @@
+#######################################
+###### ${name}.vmx ##########
+#######################################
+
+####### Identity ######################
+displayName = "${name}"
+
+# Devices
+config.version = "8"
+virtualHW.version = "4"
+memsize = "${vmem}"
+numvcpus = "${vcpu}"
+guestOS = "${vos}"
+
+####### ide-disks #####################
+ide0.0.present = "FALSE"
+ide0.1.present = "FALSE"
+ide1:0.present = "FALSE"
+ide1.1.present = "FALSE"
+
+####### scsi-controllers ##################
+scsi0.present = "TRUE"
+scsi0.virtualDev = "lsilogic"
+scsi1.present = "TRUE"
+scsi1.virtualDev = "lsilogic"
+
+####### scsi-disks #####################
+scsi0:0.present = "FALSE"
+scsi0:1.present = "FALSE"
+scsi0:2.present = "FALSE"
+scsi0:3.present = "FALSE"
+scsi0:4.present = "FALSE"
+scsi0:5.present = "FALSE"
+scsi0:6.present = "FALSE"
+scsi1:0.present = "FALSE"
+scsi1:1.present = "FALSE"
+scsi1:2.present = "FALSE"
+scsi1:3.present = "FALSE"
+scsi1:4.present = "FALSE"
+scsi1:5.present = "FALSE"
+scsi1:6.present = "FALSE"
+
+####### nics ##########################
+ethernet0.present = "TRUE"
+ethernet0.vnet = "VMnet0"
+ethernet0.virtualDev = "vlance"
+ethernet1.present = "FALSE"
+ethernet1.vnet = "VMnet1"
+ethernet1.virtualDev = "vmXnet"
+ethernet2.present = "FALSE"
+ethernet2.vnet = "VMnet2"
+ethernet2.virtualDev = "vlance"
+ethernet3.present = "FALSE"
+ethernet3.vnet = "VMnet3"
+ethernet3.virtualDev = "vmXnet"
+
+####### sound #########################
+sound.present = "FALSE"
+
+####### usb ###########################
+usb.present = "FALSE"
+
+####### floppies #######################
+floppy0.present = "FALSE"
+floppy0.startConnected = "FALSE"
+floppy1.present = "FALSE"
+floppy1.startConnected = "FALSE"
+
+####### ports #########################
+parallel0.present = "FALSE"
+serial0.present = "FALSE"
+serial1.present = "FALSE"
+
+####### cluster-options ##################
+####### skipping Cluster-options ###########
+

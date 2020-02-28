@@ -1,0 +1,37 @@
+ {
+    "uuid": "683a8eb9-abcd-abcd-abcd-466e5caf9cb9",
+    "name": "winsrc999_Test",
+    "description": "winsrc999",
+    "cpu": 2,
+    "memory": 4294967296,
+    "size": 48316424192,
+    "version": null,
+    "dateCreated": "2020-01-17T10:23:25+00:00",
+    "operatingSystem": {
+      "type": "Windows",
+      "version": "Windows Server 2016"
+    },
+    "bootOrder": [
+      {
+        "diskUuid": "6007ba83-abcd-abcd-abcd-88fd4ca00446",
+        "name": "Disk 0",
+        "order": 1,
+        "vnicUuid": null
+      },
+      {
+        "diskUuid": null,
+        "name": "vNIC 0",
+        "order": 2,
+        "vnicUuid": "06bcfde5-abcd-abcd-abcd-b7c09899c6c8"
+      },
+      {
+        "diskUuid": "df89de64-abcd-abcd-abcd-ec30712ba9fc",
+        "name": "Disk 1",
+        "order": 3,
+        "vnicUuid": null
+      }
+    ],
+    "vmMode": "Compatibility",
+    "datacenterUuid": "2bfa7725-abcd-abcd-abcd-8c547cd62203"
+  },
+
